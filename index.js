@@ -23,14 +23,6 @@ const Calculator = {
   divide: () => 10 / 5,
 };
 
-// function actionApplyer(integer, array) {
-//   if (array === []) {
-//     return intger;
-//   } else {
-//     return array[2](array[1](array[0](integer)));
-//   }
-// }
-
 function actionApplyer(integer, array) {
   return array.reduce(function (total, element) {
     return element(total);
