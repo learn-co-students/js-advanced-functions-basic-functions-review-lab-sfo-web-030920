@@ -13,14 +13,14 @@ function wrapAdjective(flair = "*") {
 }
 
 const Calculator = {
-  add: function () {
-    return 1 + 3;
+  add: function (a, b) {
+    return a + b;
   },
   subtract: function () {
-    return 1 - 3;
+    return a - b;
   },
-  multiply: () => 1 * 3,
-  divide: () => 10 / 5,
+  multiply: () => a * b,
+  divide: () => a / b,
 };
 
 function actionApplyer(integer, array) {
