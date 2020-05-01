@@ -16,11 +16,15 @@ const Calculator = {
   add: function (a, b) {
     return a + b;
   },
-  subtract: function () {
+  subtract: function (a, b) {
     return a - b;
   },
-  multiply: () => a * b,
-  divide: () => a / b,
+  multiply: (a, b) => {
+    return a * b;
+  },
+  divide: (a, b) => {
+    return a / b;
+  },
 };
 
 function actionApplyer(integer, array) {
